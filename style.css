@@ -1,0 +1,35 @@
+.header{
+    height: 150px;
+    background-color: rgb(49, 16, 16);
+    display: flex;
+}
+.title-text{
+    color: white;
+}
+.header-section{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.div-article{
+    min-height: 400px ; 
+    justify-content: space-between;
+}
+.article{
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+input{
+    color: white;
+    font-weight: 600;
+    background-color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+img{
+    max-width: 400px;
+    object-fit: cover;
+}
